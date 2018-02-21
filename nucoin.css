@@ -388,6 +388,21 @@ a.download-link {
 }
 #partners .wpb_wrapper p, #partners .wpb_wrapper span {
     line-height: 1.8;
+    margin: 0 !important;
+    text-align: center;
+}
+#partners img {
+    float: left;
+}
+@media (max-width: 768px) {
+    #partners img {
+        margin: 0 auto !important;
+        float: none;
+    }
+}
+#partners .wpb_wrapper {
+    margin: 0 auto;
+    max-width: 900px;
 }
 
 /** ------------------
@@ -473,7 +488,7 @@ h2.timeline-main-title {
     text-align: center !important;
 }
 #community .wpb_wrapper {
-    width: 300px;
+    width: 420px;
     margin: 0 auto;
 }
 #community h2 {
